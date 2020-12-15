@@ -1,0 +1,40 @@
+    .lunbo-1 {
+        width: 1280px;
+        height: 50px;
+        background: red;
+        margin-top: 45px;
+    }
+    
+    .lunbo-left {
+        width: 50px;
+        height: 50px;
+        background: url(https://www.uniqlo.cn/public/image/L1/2019/common/notice_prev.png) no-repeat center center;
+    }
+    
+    .lunbo-right {
+        width: 50px;
+        height: 50px;
+        background: url(https://www.uniqlo.cn/public/image/L1/2019/common/notice_next.png) no-repeat center center;
+    }
+    
+    .btu {
+        width: 55px;
+        height: 50px;
+        cursor: pointer;
+        outline: none;
+        float: left;
+    }
+    
+    .lunbo-img {
+        width: 1170px;
+        height: 50px;
+        float: left;
+        position: relative;
+        ul li {
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            left: 0;
+            transition: all 0.5s;
+        }
+    }

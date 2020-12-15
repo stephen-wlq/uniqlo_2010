@@ -1,0 +1,65 @@
+.banner {
+    width: 1280px;
+    height: 582px;
+    position: relative;
+    cursor: pointer;
+}
+
+.banner ul li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.banner ol {
+    transition: .3s opacity;
+    transform: translate3d(0, 0, 0);
+    height: 8px;
+    width: 100%;
+    text-align: center;
+    line-height: 0;
+    margin-top: 28px;
+}
+
+.banner ol li {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: rgb(209, 209, 209);
+    cursor: pointer;
+    margin: 0 5px;
+    outline: none;
+}
+
+.banner ol li.active {
+    background-color: black;
+}
+
+.left,
+.right {
+    position: absolute;
+    top: calc(50% - 25px);
+    width: 14px;
+    height: 50px;
+    margin-top: -22px;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    outline: none;
+    transition: .7s;
+}
+
+.left {
+    background-image: url(https://img.alicdn.com/imgextra/i4/196993935/TB2x9r2cnAlyKJjSZPiXXXL2VXa-196993935.png);
+    left: -24px;
+    right: auto;
+}
+
+.right {
+    background-image: url(https://img.alicdn.com/imgextra/i1/196993935/TB2Vxnfbo.iyKJjSspdXXbB_pXa-196993935.png);
+    right: -24px;
+    left: auto;
+}

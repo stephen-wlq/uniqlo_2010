@@ -1,0 +1,115 @@
+.contents-inner {
+    width: 1280px;
+    height: 1565px;
+}
+
+.contents-title {
+    position: relative;
+    padding-left: 90px;
+    font-size: 34px;
+    color: #1b1b1b;
+    font-weight: bold;
+    padding-bottom: 28px;
+    letter-spacing: 1px;
+    cursor: default;
+    font-family: "UniqloProRegular", "微软雅黑";
+}
+
+.contents-title::before {
+    content: '年末大促';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: -12px;
+    width: 64px;
+    height: 70px;
+    background-color: #FE0000;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 7px;
+    padding-left: 6px;
+}
+
+.contents-img {
+    width: 1280px;
+    height: 1492px;
+}
+
+.img img {
+    margin-bottom: 20px;
+}
+
+.img-link {
+    width: 100%;
+    margin: 28px 0;
+    text-align: center;
+}
+
+.img-but {
+    display: inline-block;
+    width: 800px;
+    height: 52px;
+    margin: 0 auto;
+    border: 1px solid #1b1b1b;
+    background-color: #fff;
+    color: #1b1b1b;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Ut-box {
+    width: 1280px;
+    height: 566px;
+}
+
+.Ut-box1 {
+    width: 1280px;
+    height: 276px;
+}
+
+.wz-ut {
+    font-size: 34px;
+    color: #1b1b1b;
+    font-weight: bold;
+    padding-bottom: 28px;
+    letter-spacing: 1px;
+    cursor: default;
+    font-family: "UniqloProRegular", "微软雅黑";
+}
+
+.Ut-img {
+    width: 1280px;
+    height: 385px;
+}
+
+.Ut-img1 {
+    width: 1280px;
+    height: 168px;
+}
+
+.Ut-btu {
+    width: 100%;
+    margin: 28px 0;
+    text-align: center;
+    button {
+        display: inline-block;
+        width: 800px;
+        height: 52px;
+        margin: 0 auto;
+        border: 1px solid #1b1b1b;
+        background-color: #fff;
+        color: #1b1b1b;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+.guanggao {
+    width: 1280px;
+    height: 150px;
+}

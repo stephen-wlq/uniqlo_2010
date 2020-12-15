@@ -1,0 +1,33 @@
+.log-left {
+    width: 640px;
+    height: 520px;
+    float: left;
+}
+
+.log-right {
+    width: 640px;
+    height: 112px;
+    float: right;
+}
+
+.log-h2 {
+    width: 400px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.log-a {
+    width: 400px;
+    height: 52px;
+    background-color: black;
+    text-align: center;
+    line-height: 52px;
+    margin: 0 auto;
+    a {
+        color: #ffffff;
+        font-size: 14px;
+        display: block;
+        width: 400px;
+        height: 52px;
+    }
+}

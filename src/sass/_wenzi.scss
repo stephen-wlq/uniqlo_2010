@@ -1,0 +1,29 @@
+.wz-nav {
+    width: 1280px;
+    height: 87px;
+    margin-top: 40px;
+    .ul1-li {
+        width: 320px;
+        height: 87px;
+        float: left;
+        p {
+            margin-top: 20px;
+            font-size: 18px;
+            text-align: center;
+            font-weight: bold;
+            color: #1b1b1b;
+        }
+    }
+}
+
+.nav-ul2 {
+    margin-top: 20px;
+    li {
+        float: left;
+        font-size: 16px;
+        font-weight: bold;
+        color: #1b1b1b;
+        margin-left: 20px;
+        text-decoration: underline;
+    }
+}
