@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>优衣库购物车界面</title>
+    <link rel="stylesheet" href="../src/fonts/font_9734owv2awr/iconfont.css">
+    <link rel="stylesheet" href="./style/cart.css">
+    <link rel="stylesheet" href="./style/cart copy.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/require.js/2.3.6/require.min.js" defer async=true data-main="script/main.js" id="currentpage" data-origin="cart_module"></script>
+</head>
+
+<body>
+    <div class="centre">
+        <!-- 顶部悬浮 -->
+        <div class="box">
+            <div class="head">
+                <a href="#" class="log1">
+                </a>
+                <ul>
+                    <li> <a href="#">注册</a> </li>
+
+                    <li> <a href="#">登录</a> </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="iconfont icon-myself_on" style="color: blue;"></i>
+                            <span>账户</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="iconfont icon-icon-test4" style="color:pink;"></i>
+                            <span>收藏夹</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="iconfont icon-icon-test1 " style="color: orangered;"></i>
+                            <span>购物车</span>
+                            <i class="iconfont icon-icon-test7"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="iconfont icon-icon-test2" style="color: greenyellow;"></i>
+                            <span>站内信</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="iconfont icon-icon-test3"></i>
+                            <span>联系客服</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="iconfont icon-icon-test" style="color: red;"></i>
+                            <span>门店购买</span>
+                        </a>
+                    </li>
+                    <li>
+                        <input type="text" class placeholder='站内搜索'>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- 首页头部 -->
+        <div class="head">
+            <ul>
+                <li> <a href="./registry.html">注册</a> </li>
+
+                <li> <a href="./login.html">登录</a> </li>
+
+                <li>
+                    <a href="#">
+                        <i class="iconfont icon-myself_on" style="color: blue;"></i>
+                        <span>账户</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="iconfont icon-icon-test4" style="color:pink;"></i>
+                        <span>收藏夹</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="iconfont icon-icon-test1 " style="color: orangered;"></i>
+                        <span>购物车</span>
+                        <i class="iconfont icon-icon-test7"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="iconfont icon-icon-test2" style="color: greenyellow;"></i>
+                        <span>站内信</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="iconfont icon-icon-test3"></i>
+                        <span>联系客服</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="iconfont icon-icon-test" style="color: red;"></i>
+                        <span>门店购买</span>
+                    </a>
+                </li>
+                <li>
+                    <input type="text" class placeholder='站内搜索'>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <ul class="main-left">
+                <li>
+                    <a href="javascript:;">
+                        <img src="https://www.uniqlo.cn/public/Image/L1/nav/nav-logo/LOGO.gif">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        女 装 WOMEN
+                    </a>
+                </li>
+                <li>
+                    <a href="./list.html">
+                        男 装 MEN
+                   </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                    童 装 KIDS
+                </a>
+
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        婴 幼 儿 装 BABY
+                    </a>
+                </li>
+            </ul>
+            <ul class="main-right">
+                <li>
+                    <a href="javascript:;">
+                        网上购物指南
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        关注我们
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        公告区
+                    </a>
+                </li>
+                <li style="background-color: #666666;">
+                    <a href="javascript:;">
+                        店铺资料
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <!--购物车 -->
+        <!--main-->
+        <div id="container" class="cart">
+            <div class="w">
+                <!--全部商品哪一行-->
+                <div class="cart-top" style="display: block;">
+                    <div class="cart-top-left">
+                        <a href=""><em>全部商品</em></a>
+                    </div>
+                    <div class="footline">
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <!--包裹购物车-->
+                <div class="cart-wrap" style="display: block;">
+                    <div class="w">
+                        <div id="jd-cart">
+                            <div class="cartmain">
+                                <div class="cart-thead">
+                                    <div class="cart-col t-checkbox">
+                                        <div class="cart-checkbox">
+                                            <input type="checkbox" checked="" name="" id="" class="allsel" value="" /> 全选
+                                        </div>
+                                    </div>
+                                    <div class="cart-col t-goods">商品</div>
+                                    <div class="cart-col t-props"></div>
+                                    <div class="cart-col t-prices">单价(元)</div>
+                                    <div class="cart-col t-quantity">数量</div>
+                                    <div class="cart-col t-sum">小计(元)</div>
+                                    <div class="cart-col t-action">操作</div>
+                                </div>
+                                <div id="cart-list">
+                                    <div class="cart-item-list">
+                                        <div class="cart-tbody">
+                                            <!-- 显示购物车列表 -->
+                                            <div class="item-list">
+                                                <div class="goods-item goods-item-sele" style="display: none;">
+                                                    <div class="goods-info">
+                                                        <div class="cell b-checkbox">
+                                                            <div class="cart-checkbox">
+                                                                <input type="checkbox" checked="" name="" id="" value="" />
+                                                                <span class="line-circle"></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell b-goods">
+                                                            <div class="goods-name">
+                                                                <div class="goods-pic">
+                                                                    <a href=""><img src="" alt="" /></a>
+                                                                </div>
+                                                                <div class="goods-msg">
+                                                                    <div class="goods-d-info">
+                                                                        <a href="">Apple iMac 27英寸一体机（Core i5
+                                                                        处理器/8GB内存/1TB存储/2GB独显/Retina 5K屏 MK462CH/A）</a>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell b-props">
+                                                            <div class="prop-text"></div>
+                                                        </div>
+                                                        <div class="cell b-price">
+                                                            <strong>13488.00</strong>
+                                                            <div class="sales-promotion-dropdown">
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell b-quantity">
+                                                            <div class="quantity-form">
+                                                                <a class="quantity-down" href="javascript:void(0)">-</a>
+                                                                <input type="text" value="1" />
+                                                                <a class="quantity-add" href="javascript:void(0)">+</a>
+                                                            </div>
+                                                            <div class="quantity-text">有货</div>
+                                                        </div>
+                                                        <div class="cell b-sum">
+                                                            <strong>13488.00</strong>
+                                                        </div>
+                                                        <div class="cell b-action">
+                                                            <a href="javascript:void(0)">删除</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="cart-floatbar">
+                            <div class="select-all">
+                                <div class="cart-checkbox">
+                                    <input type="checkbox" checked="" name="" id="" class="allsel" value="" /> 全选
+                                </div>
+                            </div>
+                            <div class="operation">
+                                <a href="javascript:void(0)">删除选中的商品</a>
+                            </div>
+                            <div class="toolbar-right">
+                                <div class="btn-area">
+                                    <a href=""></a>
+                                </div>
+                                <div class="price-sum">
+                                    <span class="txt">总价（不含运费）：</span>
+                                    <span class="totalprice">￥0.00</span>
+                                    <span class="txt">已节省：</span>
+                                    <span class="totalsave">-￥0.00</span>
+                                </div>
+                                <div class="amount-sum">
+                                    已选择
+                                    <em>0</em> 件商品
+                                    <b></b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- 底部 -->
+        <div class="footer" style="margin-top: 100px;">
+            <div class="footer-nav ">
+                <div class="footer-log ">
+                    <img src="https://www.uniqlo.cn/public/Image/L1/footer/footer_logo.gif " alt=" ">
+                </div>
+                <ul>
+                    <li>
+                        <a href="# ">店铺资料</a>
+                    </li>
+                    <li>
+                        <a href="# ">招聘信息</a>
+                    </li>
+                    <li>
+                        <a href="# ">访问权限</a>
+                    </li>
+                    <li>
+                        <a href="# ">隐私保护</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-bq " style="margin-top: 20px; ">
+                <div class="footer-wz ">
+                    <span>
+                        迅销（中国）商贸有限公司 沪ICP备09003223号
+                        <img src="https://www.uniqlo.cn/public/Image/L1/footer/national.png " alt=" ">
+                        沪公网安备 31010402000957号
+                    </span>
+
+                </div>
+                <div class="footer-t ">
+                    <img src="https://www.uniqlo.cn/public/image/L1/2020/special/lz2.jpg " alt=" ">
+                    <img src="https://www.uniqlo.cn/cms/ae70496c8d3e7e510f422c7a8c54b860.png " alt=" ">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="./script/top.js"></script>
