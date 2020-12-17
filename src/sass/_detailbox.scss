@@ -341,11 +341,16 @@ label {
 
 .dy-ps {
     height: 20px;
+    position: relative;
     span {
         float: left;
         font-size: 12px;
         font-weight: bold;
         cursor: pointer;
+        line-height: 20px;
+        input {
+            position: absolute;
+        }
     }
     span:hover {
         color: orangered;

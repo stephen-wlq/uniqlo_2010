@@ -9,5 +9,6 @@ $(window).on('scroll', () => {
         $box.stop(true).animate({
             top: -60
         })
+
     }
 });

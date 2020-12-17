@@ -7,6 +7,7 @@
     <title>新用户注册</title>
     <link rel="stylesheet" href="../src/fonts/font_9734owv2awr/iconfont.css">
     <link rel="stylesheet" href="./style/registry.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/require.js/2.3.6/require.min.js" defer async=true data-main="script/main.js" id="currentpage" data-origin="registry_module"></script>
 </head>
 
 <body>
@@ -33,7 +34,7 @@
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="cart.html">
                         <i class="iconfont icon-icon-test1 " style="color: orangered;"></i>
                         <span>购物车</span>
                         <i class="iconfont icon-icon-test7"></i>
@@ -133,8 +134,17 @@
                             <p><label for=""></label><input class="reg-in" type="text" placeholder="用户名" name="username" id="username" class="username"><span></span></p>
                             <p><label for=""></label><input type="password" placeholder="密码" name="password" class="password"><span></span></p>
                             <p><label for=""></label><input type="text" placeholder="邮箱" name="email" class="Emily"><span></span></p>
-                            <p><label for=""></label><input type="text" placeholder="手机号" name="phone" class="telphone"><span></span></p>
-                            <p><input class="reg-sub" type="submit" value="注册" name="submit" id="submit"></p>
+                            <p><label for=""></label><input type="text" placeholder="手机号" name="tel" class="telphone"><span></span></p>
+                            <P style="height: 20px;"><input style="width: 14px;height: 14px;margin-top: 1px;display: block;" type="checkbox" id="input"><span></span></P>
+                            <div style="float: right;margin-top: -20px;margin-right: 130px;;">
+                                <span style="float:left;">我已阅读并同意</span>
+                                <span style="float: left;color: #28788c;">《优衣库会员注册协议》《优衣库隐私政策》</span>
+
+                            </div>
+
+                            <p><input style="margin-top: 10px;float: left;" class="reg-sub" type="submit" value="注册" name="submit" id="submit"></p>
+
+
                         </form>
                     </fieldset>
 
@@ -187,7 +197,3 @@
 </body>
 
 </html>
-
-<script src="./script/regzz.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<!-- <script src="script/registry.js"></script> -->

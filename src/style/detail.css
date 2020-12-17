@@ -587,12 +587,17 @@ label {
 
 .dy-ps {
   height: 20px;
+  position: relative;
 }
 .dy-ps span {
   float: left;
   font-size: 12px;
   font-weight: bold;
   cursor: pointer;
+  line-height: 20px;
+}
+.dy-ps span input {
+  position: absolute;
 }
 .dy-ps span:hover {
   color: orangered;
